@@ -1,9 +1,10 @@
 # Covid Testing Service
 
- 
-
 - Covid API Gatway service runs on the port 9000
-  `` http://localhost:9000``
+  `` http://localhost:9000``.
+  
+ - Covid Gateway  Service provides routes to process request to downstream microservices services. It routes all the    requests to its respective uri as configured in the system. Now, the Covid UI needs to have same host and need not provide different hostname for different microservices used in the UI.
+
 
 ## Prerequisites
 
@@ -38,7 +39,7 @@ What things you need to install the software and how to install them
 
 1. Check for jdk version as it requires JDK 11
       - <terminal>> java -version
-2. All the other srvices need to be up
+2. All the other services need to be up
        
 ## Contributing
 
